@@ -1,0 +1,45 @@
+/* stili generali */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightgray;
+}
+
+/* stili header */
+
+header{
+    background-color: white;
+}
+
+header h1{
+    display: inline-block;
+}
+
+/* main */
+
+main{
+    width: 70%;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px 50px;
+    border-radius: 5px;
+}
+
+#aggiungi-tasks button{
+    padding: 8px 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.277);
+    
+}
+
+#bottone-tasks{
+    background-color: blue;
+}
+
+#bottone-section{
+    color: rgba(0, 0, 0, 0.327);
+}
