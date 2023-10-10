@@ -6,17 +6,38 @@
 }
 
 body{
-    background-color: lightgray;
+    background-color: rgba(211, 211, 211, 0.47);
+}
+
+main section{
+    background-color: white;
+    padding: 20px 50px;
+    border-radius: 5px;
+}
+
+.azzurro{
+    background-color: lightskyblue;
+}
+
+.vero{
+    color: green;
 }
 
 /* stili header */
 
 header{
     background-color: white;
+    padding: 5px 20px;
 }
 
-header h1{
+#immagine{
+    vertical-align: middle;
+}
+
+header #logo{
     display: inline-block;
+    font-size: 40px;
+    font-weight: bold;
 }
 
 /* main */
@@ -24,9 +45,10 @@ header h1{
 main{
     width: 70%;
     margin: 20px auto;
-    background-color: white;
-    padding: 20px 50px;
-    border-radius: 5px;
+}
+
+.sezione2{
+    margin: 10px 0px;
 }
 
 #aggiungi-tasks button{
@@ -37,9 +59,19 @@ main{
 }
 
 #bottone-tasks{
-    background-color: blue;
+    background-color: lightskyblue;
+    color: white;
 }
 
 #bottone-section{
     color: rgba(0, 0, 0, 0.327);
+}
+
+.sezione2 button{
+    padding: 5px;
+    border-radius: 25px;
+    border: 1px ;
+    margin-left: 5px;
+    color: white;
+    font-size: 10px;
 }
