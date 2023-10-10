@@ -23,6 +23,7 @@ main section{
     color: green;
 }
 
+
 /* stili header */
 
 header{
@@ -74,4 +75,20 @@ main{
     margin-left: 5px;
     color: white;
     font-size: 10px;
+}
+
+.material-symbols-outlined{
+    vertical-align: middle;
+}
+
+.parte-due{
+    margin: 20px 0px;
+}
+
+.parte-due div{
+    margin: 10px 0px;
+}
+
+.parte-tre div{
+    margin: 10px 0px;
 }
