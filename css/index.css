@@ -9,18 +9,16 @@ body{
     background-color: rgba(211, 211, 211, 0.47);
 }
 
-main section{
-    background-color: white;
-    padding: 20px 50px;
-    border-radius: 5px;
-}
-
 .azzurro{
     background-color: lightskyblue;
 }
 
 .vero{
     color: green;
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -48,12 +46,21 @@ main{
     margin: 20px auto;
 }
 
+#aggiungi-tasks{
+    padding: 10px 50px ;
+    background-color: white;
+    border-radius:5px 5px 0px 0px ;
+}
+
 .sezione2{
-    margin: 10px 0px;
+    padding: 20px 50px;
+    background-color:white ;
+    border-radius:0px 0px 5px 5px;
+    margin-top: 5px ;
 }
 
 #aggiungi-tasks button{
-    padding: 8px 10px;
+    padding: 5px 10px;
     border-radius: 5px;
     border: 1px solid rgba(0, 0, 0, 0.277);
     
@@ -69,7 +76,7 @@ main{
 }
 
 .sezione2 button{
-    padding: 5px;
+    padding: 5px 8px;
     border-radius: 25px;
     border: 1px ;
     margin-left: 5px;
@@ -91,4 +98,36 @@ main{
 
 .parte-tre div{
     margin: 10px 0px;
+}
+
+/* verificato o no */
+
+.falso span{
+    color: red;
+}
+
+.giusto span{
+    color: green;
+}
+
+/* colori bottoni */
+
+#viola{
+    background-color: blueviolet;
+}
+
+#verde{
+    background-color: green;
+}
+
+#arancione{
+    background-color: orange;
+}
+
+#rosa{
+    background-color: plum;
+}
+
+#oro{
+    background-color: goldenrod;
 }
