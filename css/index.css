@@ -13,10 +13,6 @@ body{
     background-color: lightskyblue;
 }
 
-.vero{
-    color: green;
-}
-
 h3{
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -45,6 +41,8 @@ main{
     width: 70%;
     margin: 20px auto;
 }
+
+/* prima sezione main */
 
 #aggiungi-tasks{
     padding: 10px 50px ;
@@ -75,10 +73,13 @@ main{
     color: rgba(0, 0, 0, 0.327);
 }
 
+
+/* seconda sezione main */
+
 .sezione2 button{
     padding: 5px 8px;
     border-radius: 25px;
-    border: 1px ;
+    border: none ;
     margin-left: 5px;
     color: white;
     font-size: 10px;
@@ -92,7 +93,7 @@ main{
     margin: 20px 0px;
 }
 
-.parte-due div{
+.parte-due, div{
     margin: 10px 0px;
 }
 
