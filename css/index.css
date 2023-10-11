@@ -17,7 +17,6 @@ h3{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
 /* stili header */
 
 header{
@@ -33,9 +32,11 @@ header #logo{
     display: inline-block;
     font-size: 40px;
     font-weight: bolder;
+    line-height: 53px;
+    vertical-align: middle;
 }
 
-/* main */
+/* stili main */
 
 main{
     width: 70%;
